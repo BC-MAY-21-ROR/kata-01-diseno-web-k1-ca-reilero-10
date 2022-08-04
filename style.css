@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.imagen1,
+.imagen2,
+.imagen3,
+.imagen4{
+    width:100%;
+    height:100%;
+
+}
+
+#art_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+
+}
+
