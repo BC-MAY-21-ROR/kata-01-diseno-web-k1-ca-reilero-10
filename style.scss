@@ -1,0 +1,140 @@
+$primari-color: hsl(322, 100%, 66%);
+$neutral-color1: hsl(193, 100%, 96%);
+$neutral-color2:  hsl(192, 100%, 9%);
+$neutral-color3:   hsl(208, 11%, 55%);
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+
+header{
+    background-color: $neutral-color1;
+    background-image: url("./images/bg-hero-mobile.svg");
+}
+
+
+nav{
+    margin: 1px 12px 19px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+h1,
+h2,
+h3{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif; 
+}
+
+h1{
+    padding-left: 25px;
+    font-size: 25px;
+    width: 327px;
+
+}
+
+
+.p1{
+    padding: 18px 19px;
+    color: $neutral-color2;
+}
+
+
+.boton1{
+    margin: 15px 2px;
+    padding: 5px 26px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    box-shadow: 0 0.2rem 1rem rgba($color: #000000, $alpha: 0.1);
+}
+
+
+.boton2{
+    padding: 12px 46px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffff;
+    background-color: $primari-color;
+    border-radius: 19px;
+}
+
+.img-logo{
+    width: 147px;
+    height: 50%;
+    margin: 22px 0px;
+}
+
+.inf-seccion{
+    margin: 57px 0px 0px 0px;
+}
+
+.imagen1{
+    padding: 38px 0px 0px 7px;
+}
+
+.imagen1,
+.imagen2,
+.imagen3,
+.imagen4{
+    width: 87%;
+    height:100%;
+
+}
+
+
+#art_container{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    width: 83%;
+    margin: auto;  
+
+}
+
+article{
+
+    div{
+        padding: 18px;
+        margin: 15px;
+
+        p{
+            color: $neutral-color3;
+            font-size: 16px;
+        }
+
+        h2{
+            color: $neutral-color2;
+            font-size: 23px;
+        }
+    
+    }
+}
+
+
+.art{
+    border-radius: 10px;
+    padding: 10px 0px;
+    box-shadow: 0 0.2rem 1rem rgba($color: #000000, $alpha: 0.1);
+}
