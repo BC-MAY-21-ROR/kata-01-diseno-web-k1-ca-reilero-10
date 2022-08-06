@@ -231,13 +231,30 @@ footer {
     padding: 21px 51px;
     border-radius: 40px;
     margin-left: 10px;
+    margin-bottom: 50px;
   }
-  .imagen2,
-.imagen3,
-.imagen4 {
-    width: 45%;
+  .art p {
+    font-size: 18px;
+  }
+  .art h2 {
+    font-size: 27px;
+    margin-left: 20px;
   }
   .art {
     display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+  }
+  .art-text {
+    order: 1;
+  }
+  .imagen2,
+.imagen4 {
+    width: 45%;
+    order: 2;
+  }
+  .imagen3 {
+    width: 45%;
   }
 }/*# sourceMappingURL=style.css.map */
