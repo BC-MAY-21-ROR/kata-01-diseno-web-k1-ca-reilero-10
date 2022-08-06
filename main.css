@@ -1,11 +1,11 @@
 /* Error: This file is already being loaded.
- *     ,
- * 142 | @import 'style.scss';
- *     |         ^^^^^^^^^^^^
- *     '
- *   style.scss 142:9  root stylesheet */
+ /*     ,
+ /* 142 | @import 'style.scss';
+ /*     |         ^^^^^^^^^^^^
+ /*     '
+ /*   style.scss 142:9  root stylesheet */
 
-body::before {
+/*body::before {
   font-family: "Source Code Pro", "SF Mono", "Monaco", "Inconsolata", "Fira Mono",
       "Droid Sans Mono", monospace, monospace;
   white-space: pre;
