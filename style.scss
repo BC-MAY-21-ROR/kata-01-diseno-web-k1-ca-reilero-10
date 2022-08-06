@@ -39,6 +39,7 @@ h1 {
     padding-left: 25px;
     font-size: 25px;
     width: 327px;
+    color: $neutral-color2;
 }
 
 .p1 {
@@ -112,13 +113,16 @@ article {
     div {
         padding: 18px;
         margin: 15px;
+
         p {
             color: $neutral-color3;
-            font-size: 16px;
+            font-size: 14px;
+            width: 85%;
+            margin-left: 20px;
         }
         h2 {
             color: $neutral-color2;
-            font-size: 23px;
+            font-size: 20px;
         }
     }
 }
@@ -136,7 +140,7 @@ article {
     box-shadow: 0 0.2rem 1rem rgba($color: #000000, $alpha: 0.1);
     height:120px;
     background-color: #ffffff;
-    color: #000000;
+    color: $neutral-color2;
     padding: 20px;
     width: 75%;    
     position: relative;
@@ -145,30 +149,72 @@ article {
     
 }
 
-/*footer {
-    /*margin-top: 150px;
+footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    align-items: flex-start;
+    background-color: $neutral-color2;
+    color: white;
 }
-/*
-.footer{
+
+.footer-logo-img {
+  filter: brightness(0) invert(1);
+  padding-top: 120px;
+  margin: 20px;
+}
+
+.footer-information {
+  display: flex;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.footer-information-img {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.footer-information p {
+  margin-left: 20px;
+}
+
+.footer-links {
+  display: flex;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.footer-links li {
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  color: white;
+}
+
+.footer-icons-img {
+  width: 30px;
+  filter: brightness(0) invert(1);
+  margin: 20px 0px;
+}
+
+.footer-copyright {
+  margin-bottom: 30px;
+}
+/* .footer{
     position: absolute;
     background-color: $neutral-color2;
     color: $neutral-color1;
-    padding-top: 100px;
-<<<<<<< HEAD
+    padding-top: 100px; */
+
     /* font-family: $font-family; */
-    z-index: 0;
-    &__logo {
-=======
-    text-align:center;
+ 
    /* font-family: $font-family;
 */    /*z-index: 0;
 /*
     &__logo{
->>>>>>> 279db0e37db65fe09f3d8b47fd7e59c4655e4f38
         &__img {
             width: 200px;
             padding-left: 20px;
