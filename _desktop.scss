@@ -89,4 +89,53 @@ $breakpoint-desktop: 1440px;
         width: 45%;
     }
 
+
+    .float-card{
+        width: 51%;
+        left: 20rem;
+
+        .primary-button{
+             font-size: 33px;
+             margin: 7px;
+
+             h3{
+                font-size: 30px;
+                margin: 7px;
+             }
+        }        
+        
+    }
+
+
+
+    .footer-li{
+        width: 38%;
+    }
+
+    .footer-links{
+        margin: 1px;
+        position: absolute;
+        left: 54rem;
+        bottom: -116rem;
+        font-size: 17px;
+
+    }
+
+
+
+
+    .footer-icons{
+        position: absolute;
+        left: 80rem;
+        bottom: -104rem;
+    }
+
+    .footer-copyright{
+        font-size: 10px;
+        left: 30rem;
+        margin-left: 69rem;
+        margin-top: 61px;
+    }
+    
+
 }
